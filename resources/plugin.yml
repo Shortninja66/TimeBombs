@@ -1,0 +1,9 @@
+name: TimeBombs
+version: 1.0
+description: Drop item bombs that blow up in a configurable time and strength!
+author: Shortninja
+website: http://shortninja.net
+main: net.shortninja.timebombs.TimeBombs
+commands:
+  timebomb:
+    description: Base for all TimeBombs commands.

@@ -1,0 +1,44 @@
+# Made with love by Shortninja - ♥
+
+############################################################
+# +------------------------------------------------------+ #
+# |                      General                         | #
+# +------------------------------------------------------+ #
+############################################################
+
+# The permission a player must have to use '/timebomb give'
+bomb-permission: "timebomb.give"
+
+# The item that will represent a TimeBomb.
+bomb-item: SULPHUR
+
+# The name that will appear on a TimeBomb.
+bomb-name: "&4cTime&fBomb"
+
+# The lore that will appear on a TimeBomb.
+bomb-lore: "&bThis is line 1, &eThis is line 2"
+
+# The time that it will take in seconds for a TimeBomb to detonate.
+bomb-time: 1.5
+
+# The strength of the explosion for a MineBomb.
+# 4.0 is about the same strength as TNT.
+bomb-strength: 4.0
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     Messages                         | #
+# +------------------------------------------------------+ #
+############################################################
+
+# If you would like to disable a message, just leave it blank!
+
+prefix: "&7[&4Time&fBombs&7]"
+
+gave-bomb: "&bYou gave a &4Time&fBomb &bto &7%player%&b!"
+received-bomb: "&bYou received a &4Time&fBomb&b!"
+no-permission: "&cYou do not have permission!"
+unknown-command: "&cUnknown command!"
+not-enough-arguments: "&cNot enough arguments!"
+player-is-offline: "&cThat player is offline!"
+not-enough-room: "&cThat player does not have enough room in their inventory!"
